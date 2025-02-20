@@ -1,0 +1,56 @@
+.main {
+    background: linear-gradient(1000deg, #1b286f90, #d4eba1);
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.paragraph {
+    margin-top: 200px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.textarea {
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+.result {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(35, 46, 46);
+    padding: 30px;
+    font-size: 20px;
+    background: linear-gradient(to right, #d4fc79, #96e6a1); /* Soft gradient */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    max-width: 250px;
+    margin: 20px auto; /* Centering */
+    font-weight: bold; /* Emphasize text */
+    letter-spacing: 1px; /* Better readability */
+}
